@@ -100,4 +100,7 @@ feed:
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  message: deploy
+  repo:
+    coding: git@git.coding.net:ca5h/yangguangxi.coding.me.git,master
